@@ -15,3 +15,15 @@
     --corPrincipal: #f9ca24;
     --corSecundaria: #111;
 }
+
+input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 8px 240px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(251, 251, 64);
+    font-size: 18px;
+}

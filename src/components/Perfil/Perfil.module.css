@@ -12,9 +12,14 @@
     height: 160px;
     border-radius: 50%;
     border: 2px solid var(--corSecundaria);
+    margin-bottom: 20px;
 }
 
 .name {
     font-size: 18px;
     color: var(--corSecundaria);
+    margin-bottom: 122px;
+    background-color: rgb(251, 251, 64);
+    border-radius: 8px;
+    padding: 8px;
 }
