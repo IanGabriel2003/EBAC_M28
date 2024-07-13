@@ -24,3 +24,8 @@
     padding: 8px;
     text-decoration: none;
 }
+
+.msgText {
+    font-size: 24px;
+    font-weight: bold;
+}
