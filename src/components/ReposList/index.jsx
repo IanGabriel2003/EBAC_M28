@@ -9,7 +9,7 @@ const ReposList = ({ nomeUsuario }) => {
 
     useEffect(() => {
         setEstaCarregando(true);
-        fetch(`http://api.github.com/users/${nomeUsuario}/repos`)
+        fetch(`https://api.github.com/users/${nomeUsuario}/repos`)
         .then((res) => {
             if (!res.ok) {
                 throw new Error("Usuário não encontrado");
